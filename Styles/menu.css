@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: flame;
+}
+body{
+    background-color: #f8f1e7;   
+}
+@font-face {
+    font-family: flameserif;
+    src: url(/Assets/FlameSans.otf);
+}
+@font-face {
+    font-family: flame;
+    src: url(/Assets/FlameRegular.otf);
+}
+.heading{
+    color: #502314;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.menu-bar{
+    color: #502314;
+    font-size: 25px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #737373 ;
+    position: sticky;
+    top: 0;
+    background-color: #f8f1e7;
+}
+.user{
+    color: #502314;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.bag{
+    color: #737373;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.cart-btn{
+    border: 1px solid #737373;
+    border-radius: 20px;
+    padding: 10px;
+    color: #737373;
+    font-size: 12px;
+    text-decoration: none;
+    width: 7rem;
+    text-align: center;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-head{
+    font-size: 15px;
+    font-family: flameserif;
+    color: #502314;
+}
+.arrow{
+    width: 1.5rem;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+}
+.dish-name{
+    font-size: 18px;
+    color: #502314;
+}
+.menu-list{
+    margin-top: 5rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dish-img{
+    width: 400px;
+}
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+/* Footer-nav */
+.footer-nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    background-color:#f8f1e7;
+    border-top: 1px solid #737373 ;
+}
+.nav-div>img{
+    width: 1.5rem;
+}
+.nav-item{
+    text-decoration: none;
+    color: #502314;
+    font-size: 13px;
+}
+.nav-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+@media(max-width:500px){
+    .cart-btn{
+        display: none;
+    }
+    .footer-nav-img{
+        display: none;
+    }
+   
+    
+}
+@media(max-width:400px){
+    .dish-img{
+        width: 280px;
+    }
+}
