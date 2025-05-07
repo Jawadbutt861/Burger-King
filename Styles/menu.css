@@ -100,7 +100,7 @@ body{
 .footer-nav{
     display: flex;
     justify-content: space-around;
-    padding: 15px;
+    padding: 10px;
     align-items: center;
     position: sticky;
     bottom: 0;
