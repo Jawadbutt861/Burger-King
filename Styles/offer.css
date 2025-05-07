@@ -71,7 +71,8 @@ body{
     display: flex;
     justify-content: space-around;
     padding: 10px;
-    background-color: white;
+    background-color: #f8f1e7;
+    border-bottom: 1px solid #737373 ;
 }
 /* Offers */
 .promo-code{
