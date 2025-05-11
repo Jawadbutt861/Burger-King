@@ -130,6 +130,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 .reward-2{
     display: flex;
@@ -137,6 +138,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
+    padding: 30px;
 }
 .footer-nav{
     display: flex;
@@ -147,6 +149,7 @@ body{
     bottom: 0;
     background-color:#f8f1e7;
     border-top: 1px solid #737373 ;
+    margin-top: 4rem;
 }
 .nav-div>img{
     width: 1.5rem;
